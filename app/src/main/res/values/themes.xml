@@ -1,0 +1,50 @@
+<resources>
+
+    <style name="Base.Theme.App" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/base_color_primary</item>
+        <item name="colorSecondary">@color/base_color_secondary</item>
+        <item name="colorOnSecondary">@color/base_color_on_secondary</item>
+        <item name="colorOnPrimary">@color/base_color_on_primary</item>
+        <item name="colorError">@color/base_color_error</item>
+        <item name="colorOnError">@color/base_color_on_error</item>
+        <item name="colorSurface">@color/base_color_surface</item>
+        <item name="colorOnSurface">@color/base_color_on_surface</item>
+        <item name="android:colorBackground">@color/base_color_background</item>
+        <item name="colorOnBackground">@color/base_color_on_background</item>
+        <item name="android:statusBarColor">@color/base_color_status_bar</item>
+        <item name="rippleColorOnButton">@color/base_color_on_surface_12</item>
+        <item name="toolbarStyle">@style/Widget.Math.Toolbar</item>
+
+    </style>
+
+    <style name="Widget.Math.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:paddingEnd">8dp</item>
+        <item name="popupTheme">@style/AppTheme.PopupTheme</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+        <item name="iconTint">@color/base_color_on_surface</item>
+    </style>
+
+    <style name="AppTheme.PopupTheme" parent="ThemeOverlay.Math.Light" />
+
+
+    <style name="ThemeOverlay.Math.Light" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorSurface">@color/base_color_surface</item>
+    </style>
+
+    <style name="Theme.App.Light" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/light_color_on_primary</item>
+    </style>
+
+    <style name="Theme.App.Dark" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/dark_color_on_primary</item>
+    </style>
+
+    <style name="Theme.App.Mint" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/mint_color_on_primary</item>
+    </style>
+
+    <style name="Theme.App.Gray" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/gray_color_on_primary</item>
+    </style>
+</resources>

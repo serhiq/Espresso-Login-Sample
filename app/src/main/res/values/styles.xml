@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="topProgressBar" parent="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:visibility">invisible</item>
+        <item name="mpb_progressStyle">horizontal</item>
+        <item name="mpb_useIntrinsicPadding">false</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <declare-styleable name="AppTheme">
+        <attr name="viewDivider" format="color" />
+        <attr name="colorCaptionBackground" format="color" />
+        <attr name="colorCaptionTextColor" format="color" />
+        <attr name="colorTitleAppBar" format="color" />
+        <attr name="colorSelectedItemCell" format="color" />
+        <attr name="rippleColorOnButton" format="color" />
+    </declare-styleable>
+</resources>

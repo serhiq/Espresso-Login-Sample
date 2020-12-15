@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Automator UI sample</string>
+
+    <!--Welcome-->
+    <string name="welcome_app_name">Auth UI Demo</string>
+    <string name="welcome_sign_up_button">Sign Up</string>
+    <string name="welcome_sign_in_with_mail_button">Sign in with mail     </string>
+    <string name="welcome_select_theme_label">select theme</string>
+
+    <!-- Theme selection dialog-->
+    <string name="dialog_select_themes_title">Select theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_mint">Mint</string>
+    <string name="theme_gray">Gray</string>
+
+    <!--Sign up-->
+    <string name="sign_up_title_app_bar">Sign Up</string>
+    <string name="sign_up_email_hint">Email</string>
+    <string name="sign_up_password_hint">Password</string>
+    <string name="sing_up_create_account_button">Create account</string>
+
+    <!--Sign in -->
+    <string name="sign_in_title_app_bar">Sign in</string>
+    <string name="sign_in_email_hint">Email</string>
+    <string name="sign_in_password_hint">Password</string>
+    <string name="sign_in_recover_password">Recover password</string>
+    <string name="sign_in_enter_button">Sign in</string>
+    <string name="sign_in_create_account_button">Create account</string>
+
+    <!--Reset password -->
+    <string name="reset_password_title_app_bar">Recover password</string>
+    <string name="title_confirm_recover_password" >Check your email</string>
+    <string name="confirm_recovery_body">Follow the instructions sent to %1$s to recover your password.</string>
+
+    <string name="reset_password_body">Get instructions sent to this email that explain how to
+        reset your password.</string>
+    <string name="reset_password_button_send">Send</string>
+    <string name="reset_password_hint_email">Email</string>
+
+
+    <!--Signed in fragment    -->
+    <string name="signed_in_title">You are signed in!</string>
+    <string name="signed_in_sign_out_button">sign out</string>
+    <string name="signed_in_delete_button">delete account</string>
+
+    <!-- Dialog delete   -->
+    <string name="dialog_delete_user_title">Delete account</string>
+    <string name="dialog_delete_user_message">All data will be deleted along with the account.</string>
+    <string name="dialog_delete_user_button">delete</string>
+
+    <!--Dialog enter password-->
+    <string name="dialog_enter_password_hint_edit_text">password</string>
+    <string name="dialog_enter_password_title">Enter password</string>
+
+    <!--Error -->
+    <string name="missing_email_address" >Enter your email address to continue</string>
+    <string name="missing_password" >Enter password to continue</string>
+    <string name="invalid_password">Incorrect password.</string>
+    <string name="invalid_email">Incorrect email.</string>
+
+    <string name="email_address_no_exist_reset">Account for this email does not exist."</string>
+    <string name="email_address_no_exist">Account for this email does not exist. Please sign up before you can sign in."</string>
+    <string name="email_address_exist">An account for this email already exists. Please sign in to continue."</string>
+
+    <string name="email_sign_in_error">Sign in unsuccessful</string>
+    <string name="error_unknown" >An unknown error occurred.</string>
+
+    <!-- Dialog logout-->
+    <string name="dialog_logout_title">Sign out</string>
+    <string name="dialog_logout_message">Are you sure you want to sign out?</string>
+    <string name="dialog_logout_button">Confirm</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    base theme palette  -->
+    <color name="base_color_primary">#5887f9</color>
+    <color name="base_color_on_primary">#FFFFFF</color>
+    <color name="base_color_secondary">#bcc5d3</color>
+    <color name="base_color_on_secondary">#FFFFFF</color>
+    <color name="base_color_error">#F44336</color>
+    <color name="base_color_on_error">#FFFFFF</color>
+    <color name="base_color_surface">#FFFFFF</color>
+    <color name="base_color_on_surface_12">#1F757575</color>
+    <color name="base_color_on_surface">#757575</color>
+    <color name="base_color_background">#FFFFFF</color>
+    <color name="base_color_on_background">#000000</color>
+    <color name="base_color_status_bar">#000000</color>
+
+    <!--Themes -->
+    <!--Light -->
+    <color name="light_color_on_primary">#4B81B7</color>
+
+    <!--Dark -->
+    <color name="dark_color_on_primary">#3F3F3F</color>
+
+    <!--Mint -->
+    <color name="mint_color_on_primary">#4C8529</color>
+
+    <!--Gray -->
+    <color name="gray_color_on_primary">#B3B3B2</color></resources>
